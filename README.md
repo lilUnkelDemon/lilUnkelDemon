@@ -81,8 +81,9 @@
 <div align="center"><img src="https://github-readme-stats.vercel.app/api?username=lilUnkelDemon&show_icons=true&count_private=true&hide_border=true" align="center" /></div>  
 
 <br/>  
+<div align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lilUnkelDemon&hide_border=true&include_all_commits=false&count_private=false&layout=compact" align="center" /></div>  
 <br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=lilUnkelDemon&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+
 
 
 ## Recent Blog Posts  
