@@ -1,0 +1,73 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset="0.45" stop-color="#07142f"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <radialGradient id="orb1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(930 90) rotate(128) scale(320 220)">
+      <stop stop-color="#38BDF8" stop-opacity="0.65"/>
+      <stop offset="0.55" stop-color="#2563EB" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(170 335) rotate(10) scale(260 170)">
+      <stop stop-color="#8B5CF6" stop-opacity="0.45"/>
+      <stop offset="0.65" stop-color="#2563EB" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="stroke" x1="120" y1="80" x2="1080" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="0.55" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M 42 0 L 0 0 0 42" fill="none" stroke="#1E40AF" stroke-width="0.8" opacity="0.22"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="420" rx="34" fill="url(#bg)"/>
+  <rect width="1200" height="420" rx="34" fill="url(#grid)" opacity="0.55"/>
+  <rect width="1200" height="420" rx="34" fill="url(#orb1)"/>
+  <rect width="1200" height="420" rx="34" fill="url(#orb2)"/>
+
+  <path d="M100 300 C240 210 310 230 430 160 C535 98 635 120 730 178 C810 227 905 232 1100 120" stroke="url(#stroke)" stroke-width="2" opacity="0.42"/>
+  <path d="M85 120 C230 165 280 90 410 120 C545 152 575 232 740 225 C900 218 965 295 1110 260" stroke="#38BDF8" stroke-width="1.5" opacity="0.18"/>
+
+  <g opacity="0.55" filter="url(#glow)">
+    <circle cx="1040" cy="105" r="5" fill="#38BDF8"/>
+    <circle cx="940" cy="182" r="4" fill="#60A5FA"/>
+    <circle cx="802" cy="75" r="3.5" fill="#A78BFA"/>
+    <circle cx="212" cy="312" r="4" fill="#38BDF8"/>
+    <circle cx="355" cy="262" r="3" fill="#A78BFA"/>
+  </g>
+
+  <g transform="translate(80,70)">
+    <rect x="0" y="0" width="1040" height="280" rx="28" fill="#020617" opacity="0.42" stroke="url(#stroke)" stroke-opacity="0.65"/>
+    <text x="50" y="82" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" fill="#93C5FD" font-weight="700" letter-spacing="3">
+      PRODUCT-MINDED DEVELOPER
+    </text>
+    <text x="50" y="150" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="58" fill="#F8FAFC" font-weight="900" letter-spacing="1">
+      AMIRABBAS MOMENI
+    </text>
+    <text x="52" y="195" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" fill="#CBD5E1" font-weight="500">
+      Building xBilan Project • Learning Rust • Turning complexity into clean systems
+    </text>
+    <g transform="translate(52,225)">
+      <rect x="0" y="0" width="178" height="38" rx="19" fill="#0F172A" stroke="#2563EB"/>
+      <text x="20" y="25" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" fill="#BFDBFE" font-weight="700">Clean Architecture</text>
+      <rect x="196" y="0" width="166" height="38" rx="19" fill="#0F172A" stroke="#2563EB"/>
+      <text x="218" y="25" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" fill="#BFDBFE" font-weight="700">Cross-Platform</text>
+      <rect x="380" y="0" width="160" height="38" rx="19" fill="#0F172A" stroke="#7C3AED"/>
+      <text x="409" y="25" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" fill="#DDD6FE" font-weight="700">Rust Growth</text>
+      <rect x="558" y="0" width="170" height="38" rx="19" fill="#0F172A" stroke="#38BDF8"/>
+      <text x="583" y="25" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" fill="#BAE6FD" font-weight="700">Product Logic</text>
+    </g>
+  </g>
+</svg>
